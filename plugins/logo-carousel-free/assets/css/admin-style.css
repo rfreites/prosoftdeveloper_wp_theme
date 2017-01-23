@@ -1,0 +1,18 @@
+
+/* Meta Box */
+.wpl-two-col{
+    overflow: hidden;
+}
+.wpl-two-col .wpl-col {
+    position: relative;
+    width: 50%;
+    float: left;
+}
+
+
+@media only screen and (max-width: 1200px) {
+    .wpl-two-col .wpl-col {
+        float: none;
+        width: 100%;
+    }
+}

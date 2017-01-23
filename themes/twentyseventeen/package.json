@@ -1,0 +1,18 @@
+{
+  "name": "twentyseventeen",
+  "version": "1.0.0",
+  "description": "I'M FREELANCE SOFTWARE/PROGRAMMER DESIGNER AND WEBSITE/E-COMMERCE DEVELOPER LOOKING FORWARD TO HIS BIGGEST PROJECT",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ronny Freites",
+  "license": "ISC",
+  "dependencies": {
+    "foundation-sites": "^6.3.0"
+  },
+  "devDependencies": {
+    "gulp-concat": "^2.6.1",
+    "gulp-uglify": "^2.0.0"
+  }
+}

@@ -1,0 +1,65 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Logo Carousel Free\n"
+"POT-Creation-Date: 2016-11-07 12:48+0600\n"
+"PO-Revision-Date: 2016-11-07 12:48+0600\n"
+"Last-Translator: \n"
+"Language-Team: WPLimb <wplimb@gmail.com>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.7\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: esc_html__;esc_html_x;esc_html_e\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../inc/functions.php:15
+msgid "Logos"
+msgstr ""
+
+#: ../inc/functions.php:16
+msgid "Logo"
+msgstr ""
+
+#: ../inc/functions.php:17 ../inc/functions.php:18
+msgid "Add New Logo"
+msgstr ""
+
+#: ../inc/functions.php:19
+msgid "Edit Logo"
+msgstr ""
+
+#: ../inc/functions.php:20
+msgid "New Logo"
+msgstr ""
+
+#: ../inc/functions.php:21
+msgid "View Logo"
+msgstr ""
+
+#: ../inc/functions.php:22
+msgid "Search Logo"
+msgstr ""
+
+#: ../inc/functions.php:23
+msgid "No Logo found"
+msgstr ""
+
+#: ../inc/functions.php:24
+msgid "No Logo found in Trash"
+msgstr ""
+
+#: ../inc/functions.php:25
+msgid "Parent Logo:"
+msgstr ""
+
+#: ../inc/functions.php:26
+msgid "Logo Carousel Free"
+msgstr ""
+
+#: ../inc/functions.php:66
+msgid "Pro Version Features"
+msgstr ""
