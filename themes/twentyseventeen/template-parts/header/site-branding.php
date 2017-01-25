@@ -39,22 +39,22 @@ $image = wp_get_attachment_image_src( $custom_logo_id , 'full' );
 
 		<ul class="social-network">
 			<li>
-				<a href="#" target="_blank">
+				<a href="https://www.linkedin.com/in/ronny-freites-a511217b" target="_blank">
 					<i class="fa fa-linkedin fa-2x" aria-hidden="true"></i>
 				</a>	
 			</li>
 			<li>
-				<a href="#" target="_blank">
+				<a href="https://github.com/rfreites" target="_blank">
 					<i class="fa fa-github fa-2x" aria-hidden="true"></i>
 				</a>
 			</li>
 			<li>
-				<a href="#" target="_blank">
-					<i class="fa fa-facebook fa-2x" aria-hidden="true"></i>
+				<a href="skype:ronnyf89?call">
+					<i class="fa fa-skype fa-2x" aria-hidden="true"></i>
 				</a>
 			</li>
 			<li>
-				<a href="#" target="_blank">
+				<a href="mailto:hello@prosoftdeveloper.com" target="_blank">
 					<i class="fa fa-envelope-o fa-2x" aria-hidden="true"></i>
 				</a>
 			</li>
