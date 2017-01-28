@@ -530,17 +530,17 @@ require get_parent_theme_file_path( '/inc/icon-functions.php' );
  * Foundation js and styles
  */
 
-function add_theme_scripts()
-{ 
-  wp_enqueue_style( 'style_foundation', get_template_directory_uri() . '/assets/css/foundation.css', array(), '1.1', 'all');
+// function add_theme_scripts()
+// { 
+//   wp_enqueue_style( 'style_foundation', get_template_directory_uri() . '/assets/css/foundation.css', array(), '1.1', 'all');
 
-  wp_enqueue_style( 'style_font_awesome', get_template_directory_uri() . '/assets/css/font-awesome.css', array(), '1.1', 'all');
+//   wp_enqueue_style( 'style_font_awesome', get_template_directory_uri() . '/assets/css/font-awesome.css', array(), '1.1', 'all');
  
-  wp_enqueue_script( 'script_what_input', get_template_directory_uri() . '/assets/js/what-input.js', array ( 'jquery' ), 1.1, true);
-  wp_enqueue_script( 'script_foundation', get_template_directory_uri() . '/assets/js/foundation.js', array ( 'jquery' ), 1.1, true);
-  wp_enqueue_script( 'script_custome', get_template_directory_uri() . '/assets/js/custome.js', array ( 'jquery' ), 1.1, true);
-}
-add_action( 'wp_enqueue_scripts', 'add_theme_scripts' );
+//   wp_enqueue_script( 'script_what_input', get_template_directory_uri() . '/assets/js/what-input.js', array ( 'jquery' ), 1.1, true);
+//   wp_enqueue_script( 'script_foundation', get_template_directory_uri() . '/assets/js/foundation.js', array ( 'jquery' ), 1.1, true);
+//   wp_enqueue_script( 'script_custome', get_template_directory_uri() . '/assets/js/custome.js', array ( 'jquery' ), 1.1, true);
+// }
+// add_action( 'wp_enqueue_scripts', 'add_theme_scripts' );
 
 //enqueues our external font awesome stylesheet
 function enqueue_our_required_stylesheets(){
@@ -548,4 +548,21 @@ function enqueue_our_required_stylesheets(){
 }
 add_action('wp_enqueue_scripts','enqueue_our_required_stylesheets');
 
+/**
+ * Bootstrap v4
+ * @return [type] [description]
+ */
+function enqueue_my_scripts() {
+wp_enqueue_script( 'jquery', '//code.jquery.com/jquery-3.1.1.slim.min.js', array('jquery'), '1.9.1', true); // we need the jquery library for bootsrap js to function
+wp_enqueue_script( 'tetherjs', '//cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js', array('jquery'), true); // all the bootstrap javascript goodness
+wp_enqueue_script( 'bootstrap-js', '//maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js', array('jquery'), true); // all the bootstrap javascript goodness
+wp_enqueue_script( 'customjs', get_theme_file_uri( '/assets/js/custome.js' ), array('jquery'), '1.0', true );
+}
+add_action('wp_enqueue_scripts', 'enqueue_my_scripts');
+function enqueue_my_styles() {
+wp_enqueue_style( 'tether', '//cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/css/tether.min.css' );
+wp_enqueue_style( 'bootstrap', '//maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css' );
+wp_enqueue_style( 'my-style', get_template_directory_uri() . '/style.css');
+}
+add_action('wp_enqueue_scripts', 'enqueue_my_styles');
 

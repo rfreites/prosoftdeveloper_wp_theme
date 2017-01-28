@@ -16,6 +16,12 @@
 
 		</div><!-- #content -->
 
+		/**
+		 * contact form 7
+		 */
+		
+		<?= do_shortcode( '' ); ?>
+
 		<footer id="colophon" class="site-footer" role="contentinfo">
 			<div class="wrap">
 				<?php

@@ -15,6 +15,9 @@ $image = wp_get_attachment_image_src( $custom_logo_id , 'full' );
  ?>
 
 <div class="site-branding">
+
+<button id="contact-form" type="button" class="btn btn-primary" data-container="body" data-toggle="popover" data-placement="left" data-content="Get in touch!" data-trigger="hover"><i data-whatever="@mdo" data-toggle="modal" data-target="#exampleModal" class="fa fa-pencil-square-o fa-2x" aria-hidden="true"></i></button>
+
 	<img class="profile-img" src="<?= $image[0]; ?>" alt="">
 	<div class="wrap">
 

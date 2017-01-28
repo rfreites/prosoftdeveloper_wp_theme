@@ -3,7 +3,7 @@
  * */
 .sbutton img {opacity:0.8;}
 .sbutton img:hover{opacity:1;}
-.csbwfs-social-widget {position: fixed;width: 50px;z-index: 99999;}
+.csbwfs-social-widget {position: fixed;width: 50px;z-index: 1000;}
 .csbwfs-social-widget .csbwfs-sbutton {background: none;float: right;height: 42px;margin: 0;padding: 0;position: relative;width: 50px;}
 .csbwfs-sbutton img{padding:5px;}
 .csbwfs-sbutton a , #csbwfs-hide, #csbwfs-show{
