@@ -15,10 +15,6 @@
 ?>
 
 		</div><!-- #content -->
-
-		/**
-		 * contact form 7
-		 */
 		
 		<?= do_shortcode( '' ); ?>
 
