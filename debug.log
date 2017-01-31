@@ -3204,7 +3204,7 @@
 [09-Jan-2017 12:56:29 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2) in /var/www/wordpress/wp-includes/wp-db.php on line 1538
 [09-Jan-2017 12:56:29 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /var/www/wordpress/wp-includes/wp-db.php on line 1568
 [09-Jan-2017 12:56:29 UTC] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2) in /var/www/wordpress/wp-includes/wp-db.php on line 1568
-[09-Jan-2017 13:32:54 UTC] PHP Parse error:  syntax error, unexpected ')' in /var/www/wordpress/wp-content/themes/twentyseventeen/template-parts/page/content-front-page.php on line 49
+[09-Jan-2017 13:32:54 UTC] PHP Parse error:  syntax error, unexpected ')' in /var/www/wordpress/wp-content/themes/helloronny/template-parts/page/content-front-page.php on line 49
 [10-Jan-2017 04:26:34 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2) in /var/www/wordpress/wp-includes/wp-db.php on line 1538
 [10-Jan-2017 04:26:34 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /var/www/wordpress/wp-includes/wp-db.php on line 1568
 [10-Jan-2017 04:26:34 UTC] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2) in /var/www/wordpress/wp-includes/wp-db.php on line 1568
@@ -3215,8 +3215,8 @@
 [28-Jan-2017 15:39:50 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2) in /var/www/wordpress/wp-includes/wp-db.php on line 1538
 [28-Jan-2017 15:39:51 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /var/www/wordpress/wp-includes/wp-db.php on line 1568
 [28-Jan-2017 15:39:51 UTC] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2) in /var/www/wordpress/wp-includes/wp-db.php on line 1568
-[28-Jan-2017 16:43:37 UTC] PHP Parse error:  syntax error, unexpected '}' in /var/www/wordpress/wp-content/themes/twentyseventeen/functions.php on line 560
-[28-Jan-2017 16:45:29 UTC] PHP Parse error:  syntax error, unexpected ';' in /var/www/wordpress/wp-content/themes/twentyseventeen/functions.php on line 557
+[28-Jan-2017 16:43:37 UTC] PHP Parse error:  syntax error, unexpected '}' in /var/www/wordpress/wp-content/themes/helloronny/functions.php on line 560
+[28-Jan-2017 16:45:29 UTC] PHP Parse error:  syntax error, unexpected ';' in /var/www/wordpress/wp-content/themes/helloronny/functions.php on line 557
 [28-Jan-2017 17:12:48 UTC] PHP Warning:  printf(): Too few arguments in /var/www/wordpress/wp-admin/includes/plugin-install.php on line 235
 [28-Jan-2017 18:12:46 UTC] PHP Notice:  wp_enqueue_script se llamó <strong>incorrectamente</strong>. Los scripts y estilos que utilices no deberías utlizarlos (registrarlos o engancharlos) a los ganchos  y  Por favor revise <a href="https://codex.wordpress.org/Debugging_in_WordPress">Depuración en  WordPress</a> para mayor información. (Este mensaje se añadió en la versión 3.3.0.) in /var/www/wordpress/wp-includes/functions.php on line 4136
 [28-Jan-2017 18:14:14 UTC] PHP Notice:  wp_enqueue_script se llamó <strong>incorrectamente</strong>. Los scripts y estilos que utilices no deberías utlizarlos (registrarlos o engancharlos) a los ganchos  y  Por favor revise <a href="https://codex.wordpress.org/Debugging_in_WordPress">Depuración en  WordPress</a> para mayor información. (Este mensaje se añadió en la versión 3.3.0.) in /var/www/wordpress/wp-includes/functions.php on line 4136

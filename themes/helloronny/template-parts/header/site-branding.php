@@ -36,8 +36,8 @@ $image = wp_get_attachment_image_src( $custom_logo_id , 'full' );
 				<?php endif; ?>
 		</div><!-- .site-branding-text -->
 
-		<?php if ( ( twentyseventeen_is_frontpage() || ( is_home() && is_front_page() ) ) && ! has_nav_menu( 'top' ) ) : ?>
-		<a href="#content" class="menu-scroll-down"><?php echo twentyseventeen_get_svg( array( 'icon' => 'arrow-right' ) ); ?><span class="screen-reader-text"><?php _e( 'Scroll down to content', 'twentyseventeen' ); ?></span></a>
+		<?php if ( ( helloronny_is_frontpage() || ( is_home() && is_front_page() ) ) && ! has_nav_menu( 'top' ) ) : ?>
+		<a href="#content" class="menu-scroll-down"><?php echo helloronny_get_svg( array( 'icon' => 'arrow-right' ) ); ?><span class="screen-reader-text"><?php _e( 'Scroll down to content', 'helloronny' ); ?></span></a>
 		<?php endif; ?>
 
 		<ul class="social-network">
